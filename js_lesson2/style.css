@@ -4,6 +4,9 @@
 .parent > .element {
   color: greenyellow;
 }
+.parent > .element.second-child {
+  color: green;
+}
 
 .element {
   color: red;

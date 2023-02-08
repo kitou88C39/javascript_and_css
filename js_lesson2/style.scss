@@ -2,6 +2,10 @@
   color: blue;
   & > .element {
     color: greenyellow;
+
+    &.second-child {
+      color: green;
+    }
   }
 }
 .element {
